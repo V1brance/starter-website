@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: block;
+  background-color: darkslategrey;
+  height: 5em;
+  width: 100%;
+  position: fixed;
+}
+
+nav h1 {
+  margin: auto;
+  position: relative;
+  top: 1em;
+  color: white;
+  text-align: left;
+  display: inline;
+  padding-left: 20px;
+}
+
+nav ul {
+  margin: auto;
+  text-align: right;
+  position: relative;
+}
+
+nav ul li {
+  text-decoration: none;
+  font-size: x-large;
+  display: inline;
+  padding-right: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+main img {
+  width: 100%;
+  height: auto;
+}
